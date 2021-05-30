@@ -1,0 +1,168 @@
+/****BASE STYLES****/
+ body {
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ /***GRID***/
+ .full-width {
+   overflow: auto;
+   width: 1200px;
+ }
+
+ .half-width {
+   width: 600px;
+   float: left;
+   margin-left: 25px;
+ }
+
+ .third-width {
+   float: left;
+   width: 400px;
+ }
+
+ /****HEADER****/
+header {
+  height: 110px;
+}
+
+ header h1 {
+   font-size: 30px;
+   margin: 0;
+   padding: 38px 0;
+   text-transform: uppercase;
+   font-weight: bold;
+ }
+
+header h1 span {
+   color: #77a466;
+ }
+
+ header nav {
+   padding: 46px 0;
+ }
+
+ header nav ul {
+   margin: 0;
+   padding: 0;
+ }
+
+header nav ul li {
+   display: inline;
+   font-size: 14px;
+   font-weight: bold;
+   padding: 0 10px;
+   text-transform: uppercase;
+ }
+
+ header nav ul li a {
+   color: #77a466;
+   text-decoration: none;
+ }
+
+
+ /*****MAIN ABOUT******/
+
+ img {
+   border: 3px solid #77a466;
+   border-left: none;
+   border-right: none;
+   margin: 0 20px 0 20px;
+ }
+
+main .full-width h2 {
+   color: #77a466;
+   font-size: 18px;
+   font-weight: bold;
+   line-height: 23px;
+   padding-left: 25px;
+   padding-top: 25px;
+   text-transform: uppercase;
+ }
+
+ .full-width p {
+   font-size: 16px;
+   line-height: 25px;
+   padding-left: 25px;
+ }
+
+ /****MAIN SECTIONS****/
+
+ .third-width h3 {
+   font-size: 12px;
+   font-weight: bold;
+   line-height: 25px;
+   color: #000000;
+   text-transform: uppercase;
+ }
+
+.third-width ul li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 18px;
+  list-style-type: none;
+  padding: 12px 0 12px 0;
+  text-decoration: none;
+  text-indent: -35px;
+}
+
+
+ #menu {
+   border: 1px solid #dedbdc;
+   border-left: none;
+   border-right: none;
+   height: 210px;
+   width: 402px;
+   margin: 35px 0px 0px 25px;
+   padding-top: 30px;
+ }
+
+ #reviews {
+   border: 1px solid #dedbdc;
+   margin: 35px 0px 0px 0px;
+   padding-top: 30px;
+   padding-left: 30px;
+   padding-right: 42px;
+   height: 210px;
+   width: 402px;
+ }
+
+ #reviews p {
+   font-size: 16px;
+   line-height: 21px;
+ }
+
+ #contact {
+   border: 1px solid #dedbdc;
+   border-left: none;
+   border-right: none;
+   margin: 35px 25px 0px 0px;
+   padding-top: 30px;
+   padding-left: 30px;
+   height: 210px;
+   width: 402px;
+ }
+
+#contact p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+ /***footer***/
+
+footer .full-width  h2{
+   text-align: center;
+   clear: both;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 23px;
+   text-transform: uppercase;
+ }
+
+footer span {
+   font-family: 'Galada', cursive;
+   font-size: 16px;
+   line-height: 23px;
+   color: #77a466;
+   text-transform: lowercase;
+ }
